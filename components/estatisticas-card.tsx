@@ -13,7 +13,7 @@ interface EstatisticasCardProps {
   valorAReceber?: string | number
   mostrarDuploValor?: boolean
   icone: React.ReactNode
-  descricao?: string
+  descricao?: React.ReactNode
   loading?: boolean
   className?: string
   tendencia?: "up" | "down" | "neutral"
