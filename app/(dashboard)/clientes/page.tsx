@@ -198,7 +198,7 @@ export default function ClientesPage() {
                         <DropdownMenuItem
                           className="text-destructive focus:text-destructive"
                           onClick={() => {
-                            setDeleteId(cliente.id)
+                            setDeleteId(cliente.id || null)
                             setShowDeleteDialog(true)
                           }}
                         >
