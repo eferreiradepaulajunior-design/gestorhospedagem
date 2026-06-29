@@ -1,0 +1,37 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "hospedagens",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "userId", "order": "ASCENDING" },
+        { "fieldPath": "dataCriacao", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "hospedagens",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "userId", "order": "ASCENDING" },
+        { "fieldPath": "cicloRenovacao", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "hospedagens",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "userId", "order": "ASCENDING" },
+        { "fieldPath": "pagamentoAntecipado", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "clientes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "userId", "order": "ASCENDING" },
+        { "fieldPath": "nome", "order": "ASCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
